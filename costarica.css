@@ -1,0 +1,40 @@
+.flag{
+    width:400px;
+    height:250px;
+    background-color: black;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.back_atas{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+.back_bawah{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
+.circle_atas{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    left: 70;
+    top: 83;
+    border-radius:100px 100px 0px 0px ;
+}
+
+.circle_bawah{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    left: 70;
+    top: 135;
+    border-radius:0px 0px 100px 100px;
+}
