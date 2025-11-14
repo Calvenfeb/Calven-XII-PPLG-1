@@ -1,0 +1,82 @@
+    .flag {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  margin: 20px;
+}
+
+
+.plus-besar-vertical {
+  position: absolute;
+  background-color: red;
+  width: 40px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.plus-besar-horizontal {
+  position: absolute;
+  background-color: red;
+  height: 40px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+.plus.kecil {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.plus.kecil::before,
+.plus.kecil::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+}
+
+
+.plus.kecil::before {
+  width: 10px;
+  height: 40px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+
+.plus.kecil::after {
+  width: 40px;
+  height: 10px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+.atas-kiri {
+  top: 30px;
+  left: 50px;
+}
+
+.atas-kanan {
+  top: 30px;
+  right: 50px;
+}
+
+.bawah-kiri {
+  bottom: 30px;
+  left: 50px;
+}
+
+.bawah-kanan {
+  bottom: 30px;
+  right: 50px;
+}

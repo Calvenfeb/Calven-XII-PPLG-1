@@ -1,0 +1,19 @@
+.flag{
+    width:400px;
+    height:250px;
+    background-color: black;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.atas{
+    background-color:red;
+    height: 50%;
+    width: 100%;
+}
+.bawah{
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 100%;
+}
